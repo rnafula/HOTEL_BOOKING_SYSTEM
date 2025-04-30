@@ -255,3 +255,11 @@ INSERT INTO spots (spot_id, capacity_range, price, label, image_url) VALUES
 ('nyati2', '15-35', 3500, 'cooperate', 'https://images.pexels.com/photos/210558/pexels-photo-210558.jpeg'),
 ('simba2', '25-50', 4800, 'corporate', 'https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg'),
 ('kifaru2', '20-40', 5200, 'business', 'https://images.pexels.com/photos/2062431/pexels-photo-2062431.jpeg');
+
+INSERT INTO users (name, email, role, password)
+VALUES
+('Alice Reception', 'alice@company.com', 'reception', '$2b$10$zJZtBZHgDRPqkODyxwKMuOaU0XKkztHtHoEiX.Rz5OFLrWhd3WTNi'), -- admin123
+
+('Bob Manager', 'bob@company.com', 'manager', '$2b$10$zJZtBZHgDRPqkODyxwKMuOaU0XKkztHtHoEiX.Rz5OFLrWhd3WTNi'),     -- admin123
+
+('Catherine Admin', 'cat@company.com', 'superadmin', '$2b$10$zJZtBZHgDRPqkODyxwKMuOaU0XKkztHtHoEiX.Rz5OFLrWhd3WTNi'); -- admin123
